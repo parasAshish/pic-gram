@@ -1,0 +1,15 @@
+.app-name {
+  padding: 0.25em;
+  color: #1e70bf;
+  text-align: center;
+}
+
+.app-header {
+ 	top: 0;
+ 	left: 0;
+ 	height: 2rem;
+ 	overflow: hidden;
+  background: #C6DEFF;
+  margin: 0;
+  border: 1px solid #1e70bf;
+}

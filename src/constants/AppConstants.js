@@ -1,0 +1,2 @@
+export const GET_ALL_IMAGES = 'GET_ALL_IMAGES';
+export const IMAGES_RECEIVED = 'IMAGES_RECEIVED';

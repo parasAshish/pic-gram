@@ -28,13 +28,15 @@ export class PicsLoaderComponent extends Component {
    */
   postComment = (e, selectedImage) => {
     e.stopPropagation();
-    const updatedData = this.state.imageData.map(dataObj => {
-      if (dataObj.id === selectedImage.id) {
-        dataObj.comments.push(this.state.commentText);
-      }
-      return dataObj;
-    })
-    this.setState({ imageData: updatedData });
+    if (this.state.commentText) {
+      const updatedData = this.state.imageData.map(dataObj => {
+        if (dataObj.id === selectedImage.id) {
+          dataObj.comments.push(this.state.commentText);
+        }
+        return dataObj;
+      })
+      this.setState({ imageData: updatedData });
+    }
   }
   /**
    * This method is used to delete comment locally

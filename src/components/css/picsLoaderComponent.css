@@ -16,6 +16,7 @@
   position: absolute;
   left: 42.5%;
   width: 15%;
+  padding: 0.3em;
 }
 
 .most-text {
@@ -32,11 +33,10 @@
 .image-widget {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 1em;
 }
 
 .image-item {
-  margin: 2em;
+  margin: 1em 2em;
   border: 1px solid #1e70bf;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .like-number {
-  color: #ffcccb;
+  color: #ffaaaa;
   margin-left: 1em;
 }
 
